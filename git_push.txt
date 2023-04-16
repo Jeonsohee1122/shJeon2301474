@@ -1,0 +1,4 @@
+git add .
+git commit -m '메모할 내용, 수정한 내용 간략하게'
+git push
+
