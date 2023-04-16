@@ -20,5 +20,8 @@ name_list.sort(reverse=True)
 print(name_list)
 
 
+print("전소힁")
+
+
 
 
