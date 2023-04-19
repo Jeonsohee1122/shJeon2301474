@@ -20,17 +20,18 @@ math_list.sort(reverse=True) # 내림차순 정렬
 score_list['국어'] = korea_list  # 딕셔너리 key에 값 추가
 score_list['수학'] = math_list
 
-print(score_list['사회'])
-print(score_list.get('국어'))
+print(score_list['국어'])
+print(score_list.get('수학'))
+
+
 
 # 한 명인데 국어랑 수학
-
-korea_s = input("국어점수: ")
-math_s = input("수학점수: ")
-
-score = dict()
-
-score['국어'] = korea_s
-score['수학'] = math_s
-
-print(score)
+# korea_s = input("국어점수: ")
+# math_s = input("수학점수: ")
+#
+# score = dict()
+#
+# score['국어'] = korea_s
+# score['수학'] = math_s
+#
+# print(score)
