@@ -9,8 +9,8 @@ korea_list = list() # 점수 리스트 선언
 math_list = list()
 
 for i in range(0, 3):
-    korea = input("국어 성적을 입력하세욤: ")
-    math = input("수학 성적을 입력하세욤: ")
+    korea = input("국어 성적을 입력하세요: ")
+    math = input("수학 성적을 입력하세요: ")
     korea_list.append(korea) # 점수를 받아서 각각 리스트에 append
     math_list.append(math)
 
