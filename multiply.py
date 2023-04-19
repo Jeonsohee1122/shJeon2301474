@@ -31,3 +31,9 @@ for dan in range(1, 10, 2):    # 1부터 9까지 홀수 단만 반복(iterate)
         result = dan * i
         print(f"{dan} x {i} = {result}")
     print()
+
+#구구단의 홀수번호만 출력하는 예제
+num = int(input("숫자를 입력하세요. "))
+for i in range(0,10):
+    if i % 2== 1:
+        print(str(num), "*", str(i),"=", str(num*i) )
