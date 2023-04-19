@@ -1,25 +1,17 @@
-# a= [1,2,3,4]
-# result = []
-#
-# for num in a:
-#     result.append(num*3)
-#
-# print(result)
+ #컴프리헨션 쓰는 법
 
-# a= [1,2,3,4]
-# result = [num*3 for num in a if num % 2==1] # %2 == 0은 짝수, %2 ==1은 홀수를 나타냄
-# print(result)
+ a = [1,2,3,4] #기본
+ result = []
 
-# 컴프리헨션을 활용한 구구단
-# gugudan= [f"{i}*{j}={i*j} \n" for i in range(2,10) for j in range(1,10)]
-# print(gugudan)
+ for num in a:
+     result.append(num*3)
 
-# for문을 활용한 구구단
-# for i in range(2,10):
-#
-#     for j in range(1,10):
-#         print(f"{i}*{j}={i*j}")
+print(result)
 
+
+a= [1,2,3,4] #컴프리 사용
+result = [num*3 for num in a if num % 2==1] # %2 == 0은 짝수, %2 ==1은 홀수를 나타냄
+print(result)
 
 
 
